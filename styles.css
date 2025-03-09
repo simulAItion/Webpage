@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Book Antiqua", serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #888;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+ul {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px; 
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.survey {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    font-family: "Book Antiqua", serif;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: solid 4px;
+    border-radius: 15px;
+    border-color: #333;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.survey:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.links p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.icons a {
+    padding: 0px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-bottom: 10px;
+}
+
+.copyright p {
+    padding: 0px;  
+    margin: 0px;  
+    font-size: 1rem;
+    text-align: center;
+}
